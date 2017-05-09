@@ -10,11 +10,6 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 def get_profile_page():
-    #base_dir='./'
-    #f=open(base_dir+'ungot_id.txt','r')
-    #content=f.readlines()
-    #f.close()
-    #content has the valid ID list.
     content=['1000010000','1000010003']
     user_agent={'User-agent':'spider'}
     s = requests.Session()

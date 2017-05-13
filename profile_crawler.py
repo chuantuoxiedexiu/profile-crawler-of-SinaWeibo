@@ -10,6 +10,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 def get_profile_page():
+    #content contains ID list
     content=['1000010000','1000010003']
     user_agent={'User-agent':'spider'}
     s = requests.Session()

@@ -11,3 +11,5 @@ I guess you can add some code like blow:
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
+
+later I will upload code about crawling tweets information.

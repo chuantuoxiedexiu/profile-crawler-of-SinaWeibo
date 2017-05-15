@@ -7,9 +7,9 @@ We just need to set the cookie in our code.
 about the crawling speed, I think it is very fast enought. And you can manupulate multiple thread to crawl data of SinaWeib.
 
 when you run this colde on Windows, you may encounter some chinese incorrect codes.
-I guess you can add some code like blow:
+I guess you can add some code firstly like blow:
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-later I will upload code about crawling tweets information.
+later I will upload code about crawling detail information of every user's tweets.

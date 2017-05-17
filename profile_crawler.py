@@ -87,7 +87,6 @@ def get_profile(ID):
     con='<html><head><meta charset="utf-8"></head><body>'+result+'</body></html>'
     #index 5:是头部信息
     #index 8：粉丝，关注，好友
-    #index 10：勋章，等级，会员
     con=con.encode('utf-8')
     tree=etree.HTML(con)
     profile={}

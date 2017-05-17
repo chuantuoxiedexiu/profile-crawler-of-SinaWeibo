@@ -88,7 +88,6 @@ def get_profile(ID):
     #index 5:是头部信息
     #index 8：粉丝，关注，好友
     #index 10：勋章，等级，会员
-    #index 11 基本信息，教育信息。。。
     con=con.encode('utf-8')
     tree=etree.HTML(con)
     profile={}

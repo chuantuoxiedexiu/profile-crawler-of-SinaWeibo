@@ -66,10 +66,7 @@ def all_profile():
         get_profile(ID)
 
 def get_profile(ID):
-    #f=open('./aaaa.html')
-    #5694223296 5461225268
     f=open('./profile_page/'+ID+'.html')
-    #f=open('./1234567890.html')
     con=f.read()
     f.close()
     con=re.findall('<script>FM.view\((.+?)\)</script>',con)

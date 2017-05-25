@@ -47,7 +47,6 @@ def get_profile_page():
         except requests.ConnectionError:
             time.sleep(3)
             res=s.get(url,cookies={'SUB':'_2A2511M-ADeRxGeNI71MU8CzPzjWIHXVWddZIrDV8PUNbmtBeLXTdkW-ghVQdQhSAO90M1mj4A0oNM7ur2g..'})
-            
         con=res.text.encode('utf8')
         if len(b)==0 and not re.findall('(基本信息)',con):
             print 'cookie is failure'

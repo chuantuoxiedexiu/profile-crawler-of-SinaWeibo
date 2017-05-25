@@ -4,7 +4,6 @@ import time
 import json
 import re
 import os
-import lxml
 from lxml import etree
 import sys
 reload(sys)
@@ -43,7 +42,6 @@ def get_profile_page():
             url='http://www.weibo.com/'+ID+'/about'
         else:
             url='http://www.weibo.com/p/'+page_id+'/info?mod=pedit_more'
-        #res=s.get(url,cookies={'SUB':'_2A2511M-ADeRxGeNI71MU8CzPzjWIHXVWddZIrDV8PUNbmtBeLXTdkW-ghVQdQhSAO90M1mj4A0oNM7ur2g..'})
         try
             res=s.get(url,cookies={'SUB':'_2A251acXQDeRxGeNI71MU8CzPzjWIHXVWwsAYrDV8PUNbmtBeLUv6kW8OEDjwFv_wTd-MNjw7-qdqQuiVkA..'})
         except requests.ConnectionError:

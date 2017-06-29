@@ -11,4 +11,5 @@ I guess you can add some code firstly like blow:
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
+
 later I will upload code about crawling detail information of every user's tweets.

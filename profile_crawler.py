@@ -5,7 +5,6 @@ import json
 import re
 import os
 from lxml import etree
-
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")

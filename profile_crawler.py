@@ -8,7 +8,7 @@ from lxml import etree
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
-import urlib
+
 def get_profile_page():
     #content contains ID list
     content=['1000010000','1000010003']

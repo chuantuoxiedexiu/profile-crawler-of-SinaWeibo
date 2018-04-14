@@ -55,7 +55,7 @@ def get_profile_page():
         f=open(base_dir+'profile_page/'+ID+'.html','w')
         f.write(con)
         f.close()
-        time.sleep(1)
+        #time.sleep(1)
 
 def all_profile():
     filenames=os.listdir('./profile_page/')

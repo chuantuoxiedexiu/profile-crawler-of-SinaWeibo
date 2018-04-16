@@ -44,7 +44,7 @@ def get_profile_page():
         else:
             url='http://www.weibo.com/p/'+page_id+'/info?mod=pedit_more'
         try
-            res=s.get(url,cookies={'SUB':'_2A251acXQDeRxGeNI71MU8CzPzjWIHXVWwsAYrDV8PUNbmtBeLUv6kW8OEDjwFv_wTd-MNjw7-qdqQuiVkA..'})
+            res=s.get(url,cookies={'SUB':'input your SUB value here'})
         except requests.ConnectionError:
             time.sleep(3)
             res=s.get(url,cookies={'SUB':'_2A2511M-ADeRxGeNI71MU8CzPzjWIHXVWddZIrDV8PUNbmtBeLXTdkW-ghVQdQhSAO90M1mj4A0oNM7ur2g..'})

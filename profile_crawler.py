@@ -23,7 +23,7 @@ def get_profile_page():
             res=s.get(url,cookies={'SUB':'input your SUB value'})
         except Exception:
             time.sleep(10)
-            res=s.get(url,cookies={'SUB':'_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAng67JhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'})
+            res=s.get(url,cookies={'SUB':'input your SUB value'})
         con=res.text.encode('utf8')
         f=open(base_dir+'main_page/'+ID+'.html','w')
         f.write(con)

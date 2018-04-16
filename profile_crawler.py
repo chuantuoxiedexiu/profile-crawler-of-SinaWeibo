@@ -20,7 +20,7 @@ def get_profile_page():
         print i,'/',len(content),ID
         #SUB is one key in cookie
         try:
-            res=s.get(url,cookies={'SUB':''})
+            res=s.get(url,cookies={'SUB':'input your SUB value'})
         except Exception:
             time.sleep(10)
             res=s.get(url,cookies={'SUB':'_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAng67JhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'})
